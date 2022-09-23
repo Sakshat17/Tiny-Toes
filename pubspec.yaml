@@ -1,0 +1,116 @@
+name: Tiny_Toes
+description: An App to assist indian women to create awareness towards Maternal care.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.11.0 <3.0.0"
+
+
+dependencies:
+  firebase_core: ^1.12.0
+  firebase_auth: ^1.1.1
+  modal_progress_hud: ^0.1.3
+  cloud_firestore: ^3.1.7
+  animated_text_kit: ^1.3.0
+  shared_preferences: 2.0.13
+  location: ^4.3.0
+  intl: ^0.17.0
+  geocoder: ^0.2.1
+  google_maps_flutter:
+  fluttertoast:
+  provider: ^4.3.1
+  lint: ^1.2.0
+  numberpicker: ^1.3.0
+  mysql1: ^0.19.2
+  flutter_local_notifications: ^7.0.0
+  flutter_native_timezone: ^1.0.4
+  http: ^0.13.4
+  flare_flutter: ^1.5.5
+  pinput: ^0.2.6
+  adobe_xd: ^0.1.3
+  url_launcher : ^6.0.9
+  flutter_tts: ^3.3.3
+  flutter_phone_direct_caller: ^1.0.1
+  string_validator: ^0.3.0
+  whatsapp_unilink: ^2.0.1+1
+
+  flutter:
+    sdk: flutter
+
+
+
+
+
+  cupertino_icons: ^0.1.2
+
+dependency_overrides:
+    firebase_messaging_platform_interface: 3.1.6
+    firebase_crashlytics_platform_interface: 3.1.13
+    cloud_firestore_platform_interface: 5.4.13
+#    firebase_auth_platform_interface: 6.1.11
+    firebase_storage_platform_interface: 4.0.14
+    cloud_functions_platform_interface: 5.0.21
+    firebase_analytics_platform_interface: 3.0.5
+    firebase_remote_config_platform_interface: 1.0.5
+    firebase_dynamic_links_platform_interface: 0.2.0+5
+    firebase_performance_platform_interface: 0.1.0+5
+    firebase_app_installations_platform_interface: 0.1.0+6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  font_awesome_flutter: ^8.0.1
+  flutter_sparkline: any
+  flutter_staggered_grid_view: any
+  google_maps_flutter: ^2.1.1
+  flutter_seekbar: ^0.0.1
+  syncfusion_flutter_gauges: ^18.2.44
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/login_logo.png
+    - assets/images/p1.jpg
+    - assets/images/s1.jpg
+    - assets/images/s2.jpg
+    - assets/images/s3.jpg
+    - assets/images/t1.jpg
+    - assets/images/t2.jpg
+    - assets/images/doc.png
+    - assets/images/bg1.png
+    - assets/images/p2.jpg
+    - assets/images/p3.jpg
+    - assets/shoes1.png
+    - assets/focus.jpeg
+    - assets/images/logo.png
+    - assets/images/powered_by.png
+    - assets/images/email_icon.png
+    - assets/images/password_icon.png
+    - assets/images/user_icon.png
+    - assets/images/as.png
+    - assets/images/img1.jpeg
+    - assets/cloud.png
+    - assets/WaterArtboards.flr
+
+  fonts:
+    - family: WorkSansSemiBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-SemiBold.ttf
+
+    - family: WorkSansBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Bold.ttf
+
+    - family: WorkSansMedium
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Medium.ttf
+    - family: Nexa
+      fonts:
+        - asset: assets/Nexa-Bold.otf
+
+    - family: NexaLight
+      fonts:
+        - asset: assets/Nexa-Light.otf
